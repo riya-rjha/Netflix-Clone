@@ -371,3 +371,19 @@ input[type="radio"] {
 .dropdownList li input {
     font-family: 'Open Sans', sans-serif;
 }
+
+@media only screen and (max-width: 880px){
+    .header-content h1, .header-content h3, .header-content p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 250px){
+    .email-signup{
+        display: none;
+    }
+    .media button{
+        display: none;
+    }
+}
+
